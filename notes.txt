@@ -1,6 +1,6 @@
 Notes: 
-	ec2 instance
-	security group for inbound traffic
-	elsatic IP address
-	route53 for domain
-	SSL?
+	- ec2 instance
+	- security group for inbound traffic (http and https)
+	- elsatic IP address (for aws's use)
+	- route53 for domain (rick.demo-milo.com)
+	- SSL certs
