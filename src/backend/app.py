@@ -1,9 +1,10 @@
-from flask import Flask, Blueprint, request, jsonify
+from flask import Flask, Blueprint, request, jsonify, render_template
 from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
 api = Blueprint('api', __name__)
+
 
 @api.route('/submit', methods=['POST'])
 def handle_submit():
