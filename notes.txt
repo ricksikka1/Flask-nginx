@@ -4,3 +4,4 @@ Notes:
 	- elsatic IP address (for aws's use)
 	- route53 for domain (rick.demo-milo.com)
 	- SSL certs
+	- Flask app to handle HTTP POST

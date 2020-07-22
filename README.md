@@ -1,3 +1,3 @@
 # Flask-nginx
 
-Deploying secure web app on AWS
+Deploying Flask/React app on AWS ec2
