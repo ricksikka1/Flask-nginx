@@ -5,3 +5,7 @@ Notes:
 	- route53 for domain (rick.demo-milo.com)
 	- SSL certs
 	- Flask app to handle HTTP POST
+	- Dockerfile for flask / backend
+	- React app to display form
+	- Dockerfile for nginx
+	- nginx.conf file
