@@ -1,4 +1,4 @@
-FROM node:12.18.2-stretch as build
+FROM node:latest as build
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY package.json /usr/src/app
