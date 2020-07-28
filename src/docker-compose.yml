@@ -11,6 +11,8 @@ services:
       - 443:443
     volumes:
       - /etc/letsencrypt/live/rick.demo-milo.com:/etc/nginx/certs
+    depends_on:
+      - backend
 
   backend:
     restart: always
